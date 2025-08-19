@@ -48,7 +48,7 @@ It  uses a loop to scan through each character of the sentenece and checks:
 - Word count : 3
 ---
 
- > **String [N] is used because the sentence doesnt have a default value. it simply means N is a generic value**
+ > **String [N] is used because the sentence doesnt have a default value. it simply means N is a generic value for the lenght of the array**
 
 > **For i FROM 0 to N-1 it means first character starts at 0 index and last character , ends at N-1. (where N = number of sentences). due to zero based indexing.**
 ---
