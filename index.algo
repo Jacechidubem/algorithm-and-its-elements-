@@ -1,0 +1,19 @@
+ALGORITHM english_sentence
+VAR
+    sentence: STRING[N]
+    sentence_len: INTEGER
+    word_count: INTEGER := 1
+    vowel_count: INTEGER
+    vowels: STRING:="aeiou"
+BEGIN
+    FOR i FROM 0 TO [N - 1] STEP 1  DO
+        if (vowels.includes(sentence[i])) THEN
+            vowel_count := vowel_count + 1
+        END_IF
+        IF (sentence[i] !== " ") THEN
+            sentence_len := sentence_len + 1
+        ELSE
+            word_count := word_count + 1
+        END_IF
+    END_FOR
+END
