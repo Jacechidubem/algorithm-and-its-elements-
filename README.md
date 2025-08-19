@@ -1,15 +1,10 @@
 # Algorithm: English Sentence Analyzer
 ## Description
-This  algorithm simply takes an inputed sentence and performs the operation listed below :
+This  algorithm simply takes a sentence as an input and performs the operation listed below :
   - Counts the total number of characters,(excluding spaces).
   - counts the total number of words.
   - counts the total number of vowels in the sentence.
-  ---
 
- Then it  uses a loop to scan through each character of the sentenece and checks:
-  - If the character is a vowel ('a,e,i,o,u'). then it increments the vowel counter.
-  - If the character is not a space , it increments the character counter.
-  - If the character is a space , it increments the word counter.
 
   --- 
   ## pseudocode
@@ -36,6 +31,11 @@ BEGIN
     END_FOR
 END
 ```
+## STEPS
+It  uses a loop to scan through each character of the sentenece and checks:
+  - If the character is a vowel ('a,e,i,o,u'). then it increments the vowel counter.
+  - If the character is not a space , it increments the character counter.
+  - If the character is a space , it increments the word counter.**
 ---
 ### Example run
 
@@ -47,11 +47,16 @@ END
 - character count :17
 - Word count : 3
 ---
- #### String [N] is used because there isnt an inputed sentence yet. it simply means a sentence of lenght N
-#### For i FROM 0 to N-1 simply means first character starts at 0 and last ends at N (number of sentences)-1 due to zero based indexing.
+
+ > **String [N] is used because the sentence doesnt have a default value. it simply means N is a generic value**
+
+> **For i FROM 0 to N-1 it means first character starts at 0 index and last character , ends at N-1. (where N = number of sentences). due to zero based indexing.**
 ---
 ## Authors 
-Joseph Enyinnia & Emmanuel Onyekwelu .
+Joseph Enyinnia
 [github profile](https://github.com/Jacechidubem)
 [repository link](https://github.com/Jacechidubem/algorithm-and-its-elements-.git)
+
+Emmanuel onyekwelu 
+[github profile](https://github.com/Emma6979)
 
